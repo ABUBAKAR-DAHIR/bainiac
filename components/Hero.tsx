@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <div className="h-screen">
-        <div className='max-w-7xl max-xl:px-10 max-md:flex-col flex mx-auto gap-4 justify-evenly items-center max-sm:pt-10'>
+        <div className='max-w-7xl max-xl:px-10 max-md:h-full max-md:flex-col flex mx-auto gap-4 justify-evenly items-center max-sm:pt-10'>
             <div className='w-45/100 max-md:w-full flex flex-col gap-4'>
                 <h1 className='text-4xl max-md:text-3xl max-sm:text-2xl font-bold leading-normal max-md:text-center'><span className='uppercase bg-bainiac p-2 rounded-md text-3xl text-white'>kcse</span> Preparation <span className="md:block"> with <span className='bg-linear-to-r from-indigo-500 via-purple-500 to-blue-600 bg-clip-text text-transparent'>Personal Guidance</span></span></h1>
                 <p className='text-lg max-md:text-md'> Get focused, one-on-one support to help you excel in your KCSE exams. I provide structured lessons, clear explanations, and targeted practice to help you understand difficult topics and improve your exam performance.</p>
