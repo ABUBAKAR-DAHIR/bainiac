@@ -12,7 +12,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="flex flex-col gap-3">
-            <h2 className="text-xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+            <h2 className="text-xl font-bold bg-linear-to-r from-indigo-500 via-purple-500 to-blue-600 bg-clip-text text-transparent">
               Bainiac
             </h2>
 

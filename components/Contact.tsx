@@ -41,11 +41,11 @@ export default function Contact() {
           <label className="text-sm font-medium">Message</label>
           <Textarea
             placeholder="Write your message..."
-            className="min-h-[120px]"
+            className="min-h-30"
           />
         </div>
 
-        <Button className="relative w-full py-8 capitalize text-md cursor-pointer border-2 border-black bg-transparent dark:border-white overflow-hidden text-black dark:text-white  group max-sm:w-full ">
+        <Button className="relative w-full py-8 max-sm:py-6 capitalize text-md cursor-pointer border-2 border-black bg-transparent dark:border-white overflow-hidden text-black dark:text-white  group max-sm:w-full ">
         
             <span className="relative z-10">get started</span>
 
